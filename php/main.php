@@ -2,7 +2,7 @@
 	
 	# Conexion a la base de datos #
 	function conexion(){
-		$pdo = new PDO('mysql:host=localhost;dbname=pdo', 'root', '');
+		$pdo = new PDO('mysql:host=localhost:3306;dbname=inventario_01', 'root', 'Bora.65536-1');
 		return $pdo;
 	}
 
