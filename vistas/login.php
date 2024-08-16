@@ -1,19 +1,19 @@
 <div class="main-container">
-
 	<form class="box login" action="" method="POST" autocomplete="off">
-		<h5 class="title is-5 has-text-centered is-uppercase">Sistema de inventario</h5>
+		<h5 class="title is-1 has-text-weight-light has-text-centered">Eco - Tech</h5>
+		<h5 class="title is-5 has-text-centered is-uppercase">Sistema de reciclaje de electronicos</h5>
 
 		<div class="field">
 			<label class="label">Usuario</label>
 			<div class="control">
-			    <input class="input" type="text" name="login_usuario" pattern="[a-zA-Z0-9]{4,20}" maxlength="20" required >
+			    <input class="input" type="text" name="login_usuario" pattern="[a-zA-Z0-9]{4,20}" maxlength="20" placeholder="Ingrese nombre de usuario..." required >
 			</div>
 		</div>
 
 		<div class="field">
 		  	<label class="label">Clave</label>
 		  	<div class="control">
-		    	<input class="input" type="password" name="login_clave" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" required >
+		    	<input class="input" type="password" name="login_clave" pattern="[a-zA-Z0-9$@.-]{7,100}" maxlength="100" placeholder="Ingrese contraseña..." required >
 		  	</div>
 		</div>
 
